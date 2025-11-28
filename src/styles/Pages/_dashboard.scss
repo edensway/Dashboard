@@ -1,0 +1,6 @@
+@use "../Utility/_colour.scss" as *;
+
+.dashboard_container {
+    display: flex;
+    justify-content: space-between;
+}

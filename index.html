@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- ---------------------------- Basic ---------------------------- -->
+  <title>Eden's Way | Dashboard</title>
+  <meta name="title" content="Eden's Way | Dashboard">
+
+  <!-- Indexing -->
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- ---------------------------- Open Graph ---------------------------- -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Eden's Way | Dashboard">
+  <meta property="og:url" content="https://edensway.github.io/Dashboard/">
+
+  <!-- ---------------------------- Twitter Card ---------------------------- -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Eden's Way | Dashboard">
+
+  <!-- ---------------------------- Favicon ---------------------------- -->
+  <link rel="icon" type="image/svg+xml" href="/Logo.svg">
+
+  <!-- ---------------------------- PWA Support ---------------------------- -->
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- iOS App Icons -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- iOS PWA settings -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Eden's Way | Dashboard">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- Splash Screen Example -->
+  <link rel="apple-touch-startup-image" href="/launch-640x1136.png"
+    media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)">
+
+  <!-- ---------------------------- Fonts ---------------------------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+
+  <!-- ---------------------------- Viewport ---------------------------- -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <!-- React / Vite Entrypoint -->
+  <script type="module" src="./src/main.jsx"></script>
+
+  <!-- Register Service Worker -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js");
+    }
+  </script>
+</body>
+
+</html>

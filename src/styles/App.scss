@@ -1,0 +1,55 @@
+@use "./Components/_navigation.scss";
+@use "./Pages/_dashboard.scss";
+
+@use "./Utility/_colour.scss" as *;
+@use "./Utility/_button.scss";
+
+*,
+*::before,
+*::after {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main_container {
+    max-width: 1100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 72px 0px 80px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100vh;
+
+}
+
+
+body {
+    color: $white;
+
+    background-image:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%),
+        url(../assets/wallpaper.jpg);
+
+    background-position: 0px 0px, 0px -50px;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.body {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.heading2 {
+    font-size: 36px;
+    font-weight: 600;
+}
