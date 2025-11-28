@@ -1,5 +1,6 @@
 @use "./Components/_navigation.scss";
 @use "./Pages/_dashboard.scss";
+@use "./Pages/_quotebox.scss";
 
 @use "./Utility/_colour.scss" as *;
 @use "./Utility/_button.scss";
@@ -29,7 +30,7 @@
 
 
 body {
-    color: $white;
+    color: $black;
 
     background-image:
         linear-gradient(rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.97)),
@@ -44,13 +45,21 @@ body {
 
 
 .body {
-    color: $black;
     font-size: 20px;
     font-weight: 400;
 }
 
+.italic {
+    @extend .body;
+    font-style: italic;
+}
+
 .heading2 {
-    color: $black;
     font-size: 36px;
     font-weight: 600;
+}
+
+.heading3 {
+    font-size: 24px;
+    font-weight: 500;
 }
