@@ -10,6 +10,7 @@ import form_icon from "../assets/Icons/form.svg";
 import messages_icon from "../assets/Icons/messages.svg";
 import sheet_icon from "../assets/Icons/sheet.svg";
 import sparkles_icon from "../assets/Icons/sparkles.svg";
+import video from "../assets/Icons/video.svg";
 
 export default function Dashboard() {
 
@@ -24,6 +25,7 @@ export default function Dashboard() {
         { name: "Account", icon: accounts_icon, url: "https://books.zoho.in/app/" },
         { name: "Calculator", icon: calculator_icon, url: "https://edensway.github.io/Body-Fat-Calculator/" },
         { name: "AI", icon: sparkles_icon, url: "https://gemini.google.com/app" },
+        { name: "Videos", icon: video, url: "https://youtube.com/" },
     ];
 
     return (
