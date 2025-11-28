@@ -24,7 +24,7 @@ export default function Dashboard() {
         { name: "Messages", icon: messages_icon, url: "https://web.whatsapp.com/" },
         { name: "Account", icon: accounts_icon, url: "https://books.zoho.in/app/" },
         { name: "Calculator", icon: calculator_icon, url: "https://edensway.github.io/Body-Fat-Calculator/" },
-        { name: "AI", icon: sparkles_icon, url: "https://gemini.google.com/app" },
+        { name: "Gemini", icon: sparkles_icon, url: "https://gemini.google.com/app" },
         { name: "Videos", icon: video, url: "https://youtube.com/" },
     ];
 
