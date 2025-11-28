@@ -5,6 +5,7 @@ export default function Navigation() {
 
     const [date, setDate] = useState("")
     const [time, setTime] = useState("")
+    const [seconds, setSeconds] = useState(0)
 
     useEffect(() => {
         const updateDateTime = () => {
@@ -18,6 +19,7 @@ export default function Navigation() {
                 timeZone: "Asia/Kolkata"
             })
 
+            // Time WITHOUT seconds
             const formattedTime = now.toLocaleTimeString("en-IN", {
                 hour: "2-digit",
                 minute: "2-digit",
@@ -27,6 +29,9 @@ export default function Navigation() {
 
             setDate(formattedDate)
             setTime(formattedTime)
+
+            // Update progress bar value
+            setSeconds(now.getSeconds())
         }
 
         updateDateTime()
@@ -38,11 +43,14 @@ export default function Navigation() {
     return (
         <nav className="navigation_bar">
             <div className="navigation_container container">
+
                 <img src={logo} alt="logo" className="brand_logo" />
 
                 <div className="time_section">
                     <p className="body">{date}</p>
                     <h2 className="heading2">{time}</h2>
+
+                    <progress className="progress_bar" max="60" value={seconds}></progress>
                 </div>
             </div>
         </nav>

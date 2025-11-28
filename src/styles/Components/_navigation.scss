@@ -3,7 +3,7 @@
 .navigation_container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 
     .brand_logo {
         height: 72px;
@@ -13,6 +13,39 @@
         display: inherit;
         flex-direction: column;
         align-items: end;
+    }
+
+    .progress_bar {
+        margin-top: 8px;
+        width: 160px;
+        height: 8px;
+        appearance: none;
+        border: none;
+        border-radius: 4px;
+
+        /* Smoothly animate changes in value */
+        transition: all 1s linear;
+    }
+
+    /* Track (background) */
+    .progress_bar::-webkit-progress-bar {
+        background-color: #e0e0e0;
+        border-radius: 4px;
+    }
+
+    /* Fill (foreground) */
+    .progress_bar::-webkit-progress-value {
+        background-color: $accent;
+        border-radius: 4px;
+        transition: width 1s linear;
+        /* smooth flowing effect */
+    }
+
+    /* Firefox */
+    .progress_bar::-moz-progress-bar {
+        background-color: $accent;
+        border-radius: 4px;
+        transition: width 1s linear;
     }
 
 }
