@@ -31,13 +31,13 @@
 body {
     color: $white;
 
-    background-image:
-        linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%),
-        url(../assets/wallpaper.jpg);
+    // background-image:
+    //     linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%),
+    //     url(../assets/wallpaper.jpg);
 
-    background-position: 0px 0px, 0px -50px;
-    background-size: cover, cover;
-    background-repeat: no-repeat, no-repeat;
+    // background-position: 0px 0px, 0px -50px;
+    // background-size: cover, cover;
+    // background-repeat: no-repeat, no-repeat;
 
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -45,11 +45,13 @@ body {
 
 
 .body {
+    color: $black;
     font-size: 20px;
     font-weight: 400;
 }
 
 .heading2 {
+    color: $black;
     font-size: 36px;
     font-weight: 600;
 }

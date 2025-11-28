@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import logo from "../assets/LogoW.svg"
+import logo from "../assets/Logo.svg"
 
 export default function Navigation() {
 
