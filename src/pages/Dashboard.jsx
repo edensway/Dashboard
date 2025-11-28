@@ -11,6 +11,7 @@ import messages_icon from "../assets/Icons/messages.svg";
 import sheet_icon from "../assets/Icons/sheet.svg";
 import sparkles_icon from "../assets/Icons/sparkles.svg";
 import video from "../assets/Icons/video.svg";
+import games from "../assets/Icons/games.svg";
 
 export default function Dashboard() {
 
@@ -22,10 +23,11 @@ export default function Dashboard() {
         { name: "Drive", icon: folder_icon, url: "https://drive.google.com/drive/folders/1PT_zsZZCxUFTsauhi_28uaIkTq-6aVxo?usp=drive_link" },
         { name: "Email", icon: email_icon, url: "https://gmail.com/" },
         { name: "Messages", icon: messages_icon, url: "https://web.whatsapp.com/" },
-        { name: "Account", icon: accounts_icon, url: "https://books.zoho.in/app/" },
+        // { name: "Account", icon: accounts_icon, url: "https://books.zoho.in/app/" },
         { name: "Calculator", icon: calculator_icon, url: "https://edensway.github.io/Body-Fat-Calculator/" },
         { name: "Gemini", icon: sparkles_icon, url: "https://gemini.google.com/app" },
         { name: "Videos", icon: video, url: "https://youtube.com/" },
+        { name: "Games", icon: games, url: "https://www.arkadium.com/" },
     ];
 
     return (
