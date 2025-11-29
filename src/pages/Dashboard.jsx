@@ -26,8 +26,8 @@ export default function Dashboard() {
         // { name: "Account", icon: accounts_icon, url: "https://books.zoho.in/app/" },
         { name: "Calculator", icon: calculator_icon, url: "https://edensway.github.io/Body-Fat-Calculator/" },
         { name: "Gemini", icon: sparkles_icon, url: "https://gemini.google.com/app" },
-        { name: "Videos", icon: video, url: "https://youtube.com/" },
-        { name: "Games", icon: games, url: "https://www.arkadium.com/" },
+        { name: "Videos", icon: video, url: "https://www.youtube.com/@edenswaync" },
+        { name: "Games", icon: games, url: "https://www.poki.com/" },
     ];
 
     return (
