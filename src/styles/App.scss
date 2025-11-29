@@ -25,11 +25,11 @@
 
 
 .main_container {
-    max-width: 1100px;
+    max-width: 1200px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    padding: 72px 0px 80px 0px;
+    padding: 28px 36px 36px 36px;
 
     display: flex;
     flex-direction: column;
@@ -47,8 +47,7 @@ body {
         linear-gradient(rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.97)),
         url(../assets/wallpaper.svg);
     background-position: 0px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: cover, cover;
 
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
