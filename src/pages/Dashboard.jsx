@@ -1,6 +1,6 @@
 import Button from "../components/Button";
 
-import accounts_icon from "../assets/Icons/accounts.svg";
+// import accounts_icon from "../assets/Icons/accounts.svg";
 import calculator_icon from "../assets/Icons/calculator.svg";
 import calender_icon from "../assets/Icons/calender.svg";
 import docs_icon from "../assets/Icons/docs.svg";
