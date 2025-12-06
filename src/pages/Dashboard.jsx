@@ -1,6 +1,6 @@
 import Button from "../components/Button";
 
-import accounts_icon from "../assets/Icons/accounts.svg";
+// import accounts_icon from "../assets/Icons/accounts.svg";
 import calculator_icon from "../assets/Icons/calculator.svg";
 import calender_icon from "../assets/Icons/calender.svg";
 import docs_icon from "../assets/Icons/docs.svg";
@@ -9,9 +9,9 @@ import folder_icon from "../assets/Icons/folder.svg";
 import form_icon from "../assets/Icons/form.svg";
 import messages_icon from "../assets/Icons/messages.svg";
 import sheet_icon from "../assets/Icons/sheet.svg";
-import sparkles_icon from "../assets/Icons/sparkles.svg";
-import video from "../assets/Icons/video.svg";
-import games from "../assets/Icons/games.svg";
+// import sparkles_icon from "../assets/Icons/sparkles.svg";
+// import video from "../assets/Icons/video.svg";
+// import games from "../assets/Icons/games.svg";
 
 export default function Dashboard() {
 
@@ -23,11 +23,11 @@ export default function Dashboard() {
         { name: "Drive", icon: folder_icon, url: "https://drive.google.com/drive/folders/1PT_zsZZCxUFTsauhi_28uaIkTq-6aVxo?usp=drive_link" },
         { name: "Email", icon: email_icon, url: "https://gmail.com/" },
         { name: "Messages", icon: messages_icon, url: "https://web.whatsapp.com/" },
-        { name: "Account", icon: accounts_icon, url: "https://books.zoho.in/app/" },
+        // { name: "Account", icon: accounts_icon, url: "https://books.zoho.in/app/" },
         { name: "Calculator", icon: calculator_icon, url: "https://edensway.github.io/tools/" },
-        { name: "Gemini", icon: sparkles_icon, url: "https://gemini.google.com/app" },
-        { name: "Videos", icon: video, url: "https://www.youtube.com/@edenswaync" },
-        { name: "Games", icon: games, url: "https://www.poki.com/" },
+        // { name: "Gemini", icon: sparkles_icon, url: "https://gemini.google.com/app" },
+        // { name: "Videos", icon: video, url: "https://www.youtube.com/@edenswaync" },
+        // { name: "Games", icon: games, url: "https://www.poki.com/" },
     ];
 
     return (
