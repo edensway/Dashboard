@@ -47,8 +47,7 @@
 .dashboard_container {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 24px;
+  gap: 16px;
 }
 
 .quotebox {
