@@ -16,9 +16,9 @@ import sheet_icon from "../assets/Icons/sheet.svg";
 export default function Dashboard() {
 
     const dashvars = [
-        { name: "Calender", icon: calender_icon, url: "https://calendar.google.com/calendar/" },
+        { name: "Calender", icon: calender_icon, url: "https://calendar.google.com/calendar" },
         { name: "Form", icon: form_icon, url: "https://forms.gle/YcSrvwSq9EvsBxZd6" },
-        { name: "Sheet", icon: sheet_icon, url: "https://docs.google.com/spreadsheets/d/" },
+        { name: "Sheet", icon: sheet_icon, url: "https://docs.google.com/spreadsheets" },
         { name: "Docs", icon: docs_icon, url: "https://docs.google.com/document" },
         { name: "Drive", icon: folder_icon, url: "https://drive.google.com/drive/folders/1PT_zsZZCxUFTsauhi_28uaIkTq-6aVxo?usp=drive_link" },
         { name: "Email", icon: email_icon, url: "https://gmail.com/" },
